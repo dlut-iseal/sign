@@ -236,7 +236,7 @@
                 localStorage.setItem('username', 'admin');
                 localStorage.setItem('is_admin', 'true');
                 alert('管理员登录成功！');
-                window.location.href = '/分区界面/index2.html';
+                window.location.href = 'https://dlut-iseal.github.io/func/';
                 return;
             }
             
@@ -256,7 +256,7 @@
                     localStorage.setItem('username', data.username);
                     localStorage.setItem('is_admin', 'false');
                     alert(`欢迎回来，${data.username}！`);
-                    window.location.href = '../分区界面/index2.html';
+                    window.location.href = '..https://dlut-iseal.github.io/func/';
                 } else {
                     alert(data.message || '登录失败');
                 }
